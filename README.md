@@ -99,6 +99,9 @@ Increment (if number greater than 1.0) or decrement (if number less than 1.0) th
 swipeCoordinator.setThreshold(0.5f);
 ```
 
+### Examples
+The module [test-sample](https://github.com/VictorAlbertos/SwipeCoordinator/tree/master/test-sample) contains both example and UI test driven by Espresso.
+
 ## Author
 
 **Víctor Albertos**
