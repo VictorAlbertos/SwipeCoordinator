@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+  <Button
+      android:id="@+id/bt_left_to_right"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/colorPrimary"
+      android:textColor="@color/colorIcons"
+      android:text="@string/left_to_right"/>
+
+  <Button
+      android:id="@+id/bt_top_to_bottom"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/colorPrimary"
+      android:textColor="@color/colorIcons"
+      android:text="@string/top_to_bottom"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">SwipeCoordinator</string>
+  <string name="pending">Pending</string>
+  <string name="approved">Approved</string>
+  <string name="left_to_right">Left to right</string>
+  <string name="top_to_bottom">Top to bottom</string>
+</resources>

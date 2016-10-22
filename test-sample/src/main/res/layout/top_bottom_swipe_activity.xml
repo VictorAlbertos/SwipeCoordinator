@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+  <RelativeLayout
+      android:id="@+id/vg_parent_swipeable_view"
+      android:layout_width="?attr/actionBarSize"
+      android:layout_height="match_parent"
+      android:background="@drawable/rounded_rectangle"
+      android:elevation="4dp">
+
+    <ImageView
+        android:id="@id/swipeable_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle"
+        android:adjustViewBounds="true"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/decorator_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/circle"
+        android:adjustViewBounds="true"
+        android:padding="5dp"
+        android:alpha=".3"/>
+
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/tv_pending"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pending"
+      android:layout_toRightOf="@+id/vg_parent_swipeable_view"
+      android:layout_marginLeft="10dp"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="@color/colorPrimary"
+      android:textStyle="bold"/>
+
+  <TextView
+      android:id="@+id/tv_progress"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:text="50%"
+      android:layout_toRightOf="@+id/vg_parent_swipeable_view"
+      android:layout_marginLeft="10dp"
+      android:layout_centerVertical="true"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:textColor="@color/colorPrimary"
+      android:textStyle="bold"/>
+
+  <TextView
+      android:id="@+id/tv_accepted"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_toRightOf="@+id/vg_parent_swipeable_view"
+      android:layout_marginLeft="10dp"
+      android:text="@string/approved"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:textColor="@color/colorPrimary"
+      android:textStyle="bold"/>
+
+</RelativeLayout>
