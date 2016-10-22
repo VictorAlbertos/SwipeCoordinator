@@ -28,7 +28,7 @@ dependencies {
 
 ## Usage
 
-Identify the swipeable view with `@id/swipeable_view` attribute.  
+Identify the swipeable view with `@id/swipeable_view` attribute. Thew ViewGroup containing the swipeable_view can not declare any padding attribute, otherwise the calculations will be misleading.  
 
 ```xml
 <RelativeLayout
