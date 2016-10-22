@@ -28,11 +28,11 @@ dependencies {
 
 ## Usage
 
-Identify the swipeable view with `@id/swipeable_view` attribute. Thew ViewGroup containing the swipeable_view can not declare any padding attribute, otherwise the calculations will be misleading.  
+Identify the swipeable view with `@id/swipeable_view` attribute. Thew ViewGroup containing the swipeable view can not declare any padding attribute, as such as the swipeable view can not declare any margin. Otherwise the calculations will be misleading.  
 
 ```xml
 <RelativeLayout
-	  android:id="@+id/parent_swipeable_view"
+      android:id="@+id/parent_swipeable_view"
       android:layout_width="match_parent"
       android:layout_height="?attr/actionBarSize"
       android:background="@color/colorPrimary">
