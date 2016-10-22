@@ -96,7 +96,7 @@ swipeCoordinator.setThreshold(0.5f);
 Increment (if number greater than 1.0) or decrement (if number less than 1.0) the duration of the rearrange animation performed when the user drops the swipeable view. Default value is 1.0.
 
 ```java
-swipeCoordinator.setThreshold(0.5f);
+swipeCoordinator.setVariancePercentage(0.5f);
 ```
 
 ### Examples
