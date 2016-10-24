@@ -1,5 +1,7 @@
 # SwipeCoordinator
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SwipeCoordinator-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4556)
+
 SwipeCoordinator simplifies the processs of implementing animated swipeable views. It links a view with its parent as a single behavioural unit constrained by the parent boundaries. SwipeCoordinator supports both *left-to-right* and *top-to-bottom* direction.
 
 ![Screenshots](swipe_coordinator_left_right.gif)
