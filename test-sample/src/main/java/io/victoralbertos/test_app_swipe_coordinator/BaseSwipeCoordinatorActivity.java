@@ -17,12 +17,14 @@
 package io.victoralbertos.test_app_swipe_coordinator;
 
 import android.os.Bundle;
-import android.support.annotation.LayoutRes;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.LayoutRes;
+import androidx.appcompat.app.AppCompatActivity;
+
 import io.victoralbertos.swipe_coordinator.SwipeCoordinator;
 import io.victoralbertos.swipe_coordinator.SwipeDirection;
 
@@ -96,7 +98,8 @@ public abstract class BaseSwipeCoordinatorActivity extends AppCompatActivity {
     return swiped;
   }
 
-  @LayoutRes protected abstract int idLayout();
+  @LayoutRes
+  protected abstract int idLayout();
 
   protected abstract SwipeDirection swipeDirection();
 }
