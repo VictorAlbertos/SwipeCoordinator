@@ -24,7 +24,7 @@ allprojects {
 Add to app module *gradle.build* file
 ```gradle
 dependencies {
-    compile 'com.github.VictorAlbertos:SwipeCoordinator:0.0.1'
+    compile 'com.github.VictorAlbertos:SwipeCoordinator:0.0.2'
 }
 ```
 
